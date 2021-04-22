@@ -1,0 +1,116 @@
+.home {
+  display: flex;
+}
+
+.home__leftSection {
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  background-color: black;
+  height: 100vh;
+  width: 80vh;
+}
+
+.home__leftSection > span {
+  margin: 30px;
+}
+.home__leftSection > strong {
+  font-size: 1.2em;
+  margin: 10px 30px 10px 30px;
+}
+
+.home__middleSection {
+  background-color: whitesmoke;
+  padding-left: 40px;
+  padding-top: 60px;
+  padding-right: 20px;
+  font-size: 1.2em;
+  width: 300vh;
+}
+
+.midSectionList {
+  line-height: 2.1;
+}
+
+.dragSectionHeading {
+  display: flex;
+}
+
+.dragSectionHeading > span {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.resetIcon {
+  display: flex;
+  margin-left: 29vh;
+}
+
+.resetIcon > p {
+  margin: 0px;
+  font-size: 15px;
+  color: darkgrey;
+}
+
+.home__rightSection {
+  text-align: center;
+  width: 100%;
+}
+
+.home__rightSection > span {
+  margin: 20px;
+}
+.dragSection {
+  display: flex;
+}
+#div1 {
+  width: 150px;
+  height: 170px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 2px dashed #aaaaaa;
+}
+#div2 {
+  width: 150px;
+  height: 170px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 2px dashed #aaaaaa;
+}
+#div3 {
+  width: 150px;
+  height: 170px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 2px dashed #aaaaaa;
+}
+
+#drag1 {
+  width: 100px;
+  height: 100px;
+}
+
+.home__sectionButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__sectionButtons > button {
+  margin: 20px;
+  padding: 5px 40px;
+  border-radius: 5px;
+}
+.btn_expln {
+  border: 0.5px solid black;
+  color: #3e3d3d;
+  background-color: white;
+}
+
+.btn_ans {
+  border: 0.5px solid black;
+  background-color: #a9a9a9;
+  color: white;
+}
